@@ -84,7 +84,7 @@ main:after{
 section{
 	width: 72%;
 	float: left;
-	margin-right: 20px;
+	margin-right: 3px;
 }
 
 section img{
@@ -130,4 +130,20 @@ footer{
 	padding: 20px;
 	margin-bottom: 20px;
 }
+
+@media screen and (max-width:800px){
+	header{
+		text-align: center;
+	}
+	section, aside{
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+	nav ul li{
+		display: block;
+		text-align: center;
+	}
+}
+
 
